@@ -1,0 +1,28 @@
+import javax.swing.JComponent;
+import java.awt.Graphics;
+import java.awt.Color;
+import java.awt.Polygon;
+
+public class Tree extends JComponent {
+  //instance variables
+  int width, height;
+  //constructor
+  public Tree(int width, int height) {
+    this.width = width;
+    this.height = height;
+  }
+  public void paintComponent(Graphics g) {
+    Color specialTreeGreen = new Color(117, 215, 149);
+    Color specialTreeBrown = new Color(131, 60, 40);
+      
+    g.setColor(specialTreeGreen);
+    g.fillPolygon(new Polygon
+                    ( new int[] { 300, 350, 250 },
+                     new int[] { 100, 200, 200 }, 3));
+    g.fillPolygon(new Polygon
+                    ( new int[] { 300, 350, 250 },
+                     new int[] { 130, 230, 230 }, 3));
+    g.setColor(specialTreeBrown);
+    g.fillRect(280, 230, 35, 60);
+  }
+}

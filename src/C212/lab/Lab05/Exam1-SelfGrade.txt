@@ -1,0 +1,207 @@
+Joshua Isaacson, jsisaacs
+9/22/2017
+
+Correct:	34
+Incorrect:	10
+
+Early Evaluation Self-Assessment
+--------------------------------
+
+Question 1: [1]
+Correct
+
+Question 2: [0]
+Wrong: 5 <= n <= 3, cannot simplify
+Correct: n != 4
+Explanation:
+n      |    3       5
+------------------------
+n <= 3 | T T T F F F F F
+n >= 5 | F F F F T T T T
+------------------------
+         1 2 3 4 5 6 7 8
+               ^
+      n != 4 for this expression
+
+Question 3: [1]
+Correct
+
+Question 4: [1]
+Correct
+
+Question 5: [1]
+Correct
+
+Question 6: [1]
+Correct
+
+Question 7: [1]
+Correct
+
+Question 8: [1]
+Correct
+
+Question 9: [0]
+Wrong: true
+Correct: b
+Explanation:
+b || false returns b, not true because the statement is saying b or false, so the
+output is b because b is true.
+
+Question 10: [0]
+Wrong: if (n <= 5 && n < 20) {
+            return true;
+        }
+Correct: if (n < 10)
+              b = (n > 5)
+            else if (true)
+                   b = false;
+                 else
+                   b = (n < 20);
+Explanation:
+The correct solution is just a nested conditional, where the first condition is
+whether or not n < 10.  b = (n > 5) if n < 10, so that means n is between 5 and 10.
+
+Question 11: [0]
+Wrong: if (n <= 5) {
+            return true;
+        }
+Correct: b = (n > 5) && (b < 10);
+Explanation:
+The correct solution is true when n is 6, 7, 8, 9.  If n is anything else, the output
+is false.
+
+Question 12: [1]
+Correct
+
+Question 13: [1]
+Correct
+
+Question 14: [1]
+Correct
+
+Question 15: [1]
+Correct
+
+Question 16: [1]
+Correct
+
+Question 17: [1]
+Correct
+
+Question 18: [1]
+Correct
+
+Question 19: [0]
+Wrong: 0
+Correct: 7
+Explanation:
+This is because if 11 cannot go into 7 at all, the remainder that is left
+is just 7.
+
+Question 20: [0]
+Wrong: 'B'
+Correct: 2
+Explanation:
+'C' - 'A' = 2 because 'C' is at the position 3, and 'A' is at the position 1,
+and 3 - 1 = 2.
+
+Question 21: [1]
+Correct
+
+Question 22: [1]
+Correct
+
+Question 23: [1]
+Correct
+
+Question 24: [1]
+Correct
+
+Question 25: [1]
+Correct
+
+Question 26: [1]
+Correct
+
+Question 27: [1]
+Correct
+
+Question 28: [1]
+Correct
+
+Question 29: [1]
+Correct
+
+Question 30: [1]
+Correct
+
+Question 31: [1]
+Correct
+
+Question 32: [1]
+Correct
+
+Question 33: [1]
+Correct
+
+Question 34: [0]
+Wrong: 20
+Correct: infinite loop
+Explanation:
+The correct solution is infinite loop because setting i = i++ doesn't actually
+change the value of i, so i stays at -10 and the for loop never terminates.
+
+Question 35: [0]
+Wrong: Yes, because no matter what val for x you use, if x != 8,
+       it returns x = 5.
+Correct: No, they handle 8 differently and have different outputs.
+Explanation:
+The reason why the two fragments are not equivalent is that the first one
+turns 8 into 11 and everything else into 5.  The second turns 8 into 11 and
+then into 5 and everything else into 5.
+
+Question 36: [0]
+Wrong: 1, n
+Correct: none
+Explanation:
+There are zero instance variables.  Instance variables are instance specific
+and are used by objects to store their states.
+
+Question 37: [1]
+Correct
+
+Question 38: [1]
+Correct
+
+Question 39: [1]
+Correct
+
+Question 40: [1]
+Correct
+
+Question 41: [1]
+Correct
+
+Question 42: [1]
+Correct
+
+Question 43: [0]
+Wrong: 0
+       1
+       2
+       3
+       4
+       5
+       6
+       7
+       8
+       9
+Correct: infinite sequence of 0
+Explanation:
+The correct solution is just an infinite sequence of 0 because
+the loop is infinite.  This is because count = count + 1 isn't
+within the body of the loop.
+
+Question 44: [1]
+Correct

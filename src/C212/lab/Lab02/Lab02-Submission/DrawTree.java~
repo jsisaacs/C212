@@ -1,0 +1,15 @@
+import java.awt.Graphics;
+import javax.swing.JFrame;
+
+public class DrawTree {
+  public static void main(String[] args) {
+    JFrame frame = new JFrame();
+    int width = 500, height = 500;
+    frame.setVisible(true);
+    //because the size of the frame includes the top bar 
+    frame.setSize(width+20, height+40);
+    Tree tree = new Tree(width, height);
+    frame.add(tree);   
+  }
+}
+
