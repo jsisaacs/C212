@@ -1,10 +1,17 @@
+//Joshua Isaacson, jsisaacs, 10/2/2017
+
+
 package C212.lab.Lab06;
 
 public class Table {
 
     private static int[][] values;
+    private static int rows;
+    private static int columns;
 
     public Table(int rows, int columns) {
+        this.rows = rows;
+        this.columns = columns;
         values = new int[rows][columns];
     }
 
@@ -12,23 +19,36 @@ public class Table {
         values[i][j] = n;
     }
 
-    public static double neighborAverage(int row, int column) {
+    public static double sum(int i, boolean horizontal) {
         int total = 0;
-        if (row > 0) {
-            total = total + values[row - 1][column];
-        }
-        if (row < values.length - 1) {
-            total = total + values[row + 1][column];
-        }
 
+        if (horizontal == false) {
+            for (int a = 0; a < rows; a++) {
+                total += values[i][a];
+            }
+
+        }
+        if (horizontal == true) {
+            for (int b = 0; b < columns; b++) {
+                total += values[b][i];
+            }
+        }
         return total;
     }
 
     public static void main(String[] args) {
-        Table exTable = new Table(5, 3);
-        System.out.println(exTable.values[0][0]);
-        exTable.set(0, 0, 5);
-        System.out.println(exTable.values[0][0]);
-        System.out.println(neighborAverage(4, 4));
+        //this would generate a table with 2 rows and 2 columns
+        Table exTable = new Table(2, 2);
+
+        exTable.set(0, 0, 1);
+        exTable.set(0, 1, 1);
+        exTable.set(1, 0, 1);
+        exTable.set(1, 1, 3);
+
+        //should print 2.0
+        System.out.println(sum(0, false));
+
+        //should print 4.0
+        System.out.println(sum(1, true));
     }
 }
