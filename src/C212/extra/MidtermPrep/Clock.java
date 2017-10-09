@@ -19,19 +19,25 @@ public class Clock {
 
     //Clock constructor takes only the original time as a String
     public Clock (String startingTime) {
-        this.time = startingTime;
         hours = Integer.parseInt(startingTime.substring(0, 2));
-
-
+        minutes = Integer.parseInt(startingTime.substring(2, 4));
+        time = hours + ":" + minutes;
     }
 
     //report returns the time
+    public String report () {
+        String output = time;
 
+        return output;
+    }
 
     //tick advances the clock by a min
+    public void tick() {
 
+    }
 
-    public static void main(String[] args) {
-
+    public static void main (String[] args) {
+        Clock time = new Clock("12:59");
+        System.out.println(time.report());
     }
 }
