@@ -7,7 +7,7 @@ package C212.homework.Homework04;
 import java.util.Random;
 import java.util.Scanner;
 
-public class RandomState {
+public class  RandomState {
 
     static Random rand = new Random();
 
