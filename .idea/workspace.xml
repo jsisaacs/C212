@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89ce38ea-fa4b-4ff3-a2b0-5d08c187050c" name="Default" comment="Wednesday 9/12 lecture">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/Car.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/One.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/Owl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/Pig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/Spider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/TimeCalc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/Two.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,15 +37,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/DataSet.java">
+      <file leaf-file-name="GameOfNim.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1478#1486#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/C212/homework/Homework03/Student.java" />
         <option value="$PROJECT_DIR$/src/C212/homework/Homework03/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/C212/README.md" />
         <option value="$PROJECT_DIR$/src/C212/homework/Homework03/OlympicRingComponent.java" />
@@ -124,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/ScalablePatterns.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/StandardDeviation.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/DataSet.java" />
+        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java" />
       </list>
     </option>
   </component>
@@ -134,7 +137,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="957" />
     <option name="y" value="22" />
     <option name="width" value="963" />
     <option name="height" value="988" />
@@ -192,21 +194,6 @@
               <item name="C212" type="462c0819:PsiDirectoryNode" />
               <item name="extra" type="462c0819:PsiDirectoryNode" />
               <item name="MidtermPrep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C212Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C212Work" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="C212" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C212Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C212Work" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="C212" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,7 +378,7 @@
       <workItem from="1507492693826" duration="105000" />
       <workItem from="1507503783765" duration="7062000" />
       <workItem from="1507568147081" duration="6734000" />
-      <workItem from="1507607836937" duration="4104000" />
+      <workItem from="1507607836937" duration="5406000" />
     </task>
     <task id="LOCAL-00001" summary="completed CarTwo and test, Counter and test, Student and test">
       <created>1505182089686</created>
@@ -425,7 +412,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115273000" />
+    <option name="totallyTimeSpent" value="116575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,7 +424,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="957" y="22" width="963" height="988" extended-state="0" />
+    <frame x="0" y="22" width="963" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -453,7 +440,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2519001" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2519001" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -554,13 +541,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework05/HomeworkFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab06/Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -871,6 +851,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -928,7 +916,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
