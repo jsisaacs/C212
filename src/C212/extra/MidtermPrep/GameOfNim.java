@@ -1,3 +1,5 @@
+//Joshua Isaacson, jsisaacs, October 10, 2017
+
 package C212.extra.MidtermPrep;
 
 import java.util.Random;

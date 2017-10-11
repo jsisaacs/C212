@@ -9,26 +9,33 @@ start in a random point (x, y).  When bounce() is called, Tigger changes its pos
 
  */
 
-public class Tigger {
-    //variables
-    int x;
-    int y;
-
-    //Tigger constructor
-    public Tigger (int x, int y) {
-        this.x = x;
-        this.y = y;
+class Tigger {
+    String x, y;
+    Tigger(int x, int y) {
+        this.x = x + "";
+        this.y = y + "";
     }
-
-    //bounce moves Tigger to a new position
-    public void bounce () {
-        //get the number of digits in both x and y
-
-        //square the digits and add them together for x and y
+    void bounce() {
+        int a = calculate(x),
+                b = calculate(y);
+        this.x = a + "";
+        this.y = b + "";
 
     }
-
-    public static void main (String[] args) {
-        Tigger t1 = new Tigger(0, 0);
+    int calculate(String a) {
+        int sum = 0;
+        for (int i = 0; i < a.length(); i++) {
+            sum += (a.charAt(i) - '0') * (a.charAt(i) - '0');
+        }
+        return sum;
+    }
+    String report() {
+        String
+                x = "   " + this.x,
+                y = "   " + this.y;
+        return
+                "Tigger just bounced to (" +
+                        x.substring(x.length() - 3) + ", "
+                        + y.substring(y.length() - 3) + ")";
     }
 }

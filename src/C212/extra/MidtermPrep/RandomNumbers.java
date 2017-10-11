@@ -1,4 +1,4 @@
-//Joshua Isaacson, jsisaacs, October 7, 2017
+//Joshua Isaacson, jsisaacs, October 10, 2017
 
 package C212.extra.MidtermPrep;
 
@@ -25,7 +25,7 @@ public class RandomNumbers {
             return "Utah";
         }
     }
-    
+
     public static void main(String[] args) {
         int tries = 1000;
         int cali = 0;

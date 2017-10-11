@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89ce38ea-fa4b-4ff3-a2b0-5d08c187050c" name="Default" comment="Wednesday 9/12 lecture">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/homework/Homework04/RandomState.java" afterPath="$PROJECT_DIR$/src/C212/homework/Homework04/RandomState.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/ToString.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/CopyOf.java" afterPath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/CopyOf.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java" afterPath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/RandomNumbers.java" afterPath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/RandomNumbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java" afterPath="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,21 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomNumbers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/RandomNumbers.java">
+      <file leaf-file-name="Tigger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework04/RandomState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="663">
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -80,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/C212/lab/Lab04/One.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MonteCarlo.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/ExamOnePrep.java" />
         <option value="$PROJECT_DIR$/src/C212/homework/Homework04/Grade.java" />
@@ -106,14 +99,10 @@
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Triangle.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Clock.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Robot.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Sort.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/ToString.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/CopyOf.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/ScalablePatterns.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/StandardDeviation.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/DataSet.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/RandomWalk.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Cutoffs.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/LeapYear.java" />
@@ -131,6 +120,11 @@
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/AlternatingSum.java" />
         <option value="$PROJECT_DIR$/src/C212/homework/Homework04/RandomState.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/RandomNumbers.java" />
+        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java" />
+        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Fraction.java" />
+        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/CopyOf.java" />
+        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/ToString.java" />
+        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java" />
       </list>
     </option>
   </component>
@@ -142,7 +136,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="802" />
+    <option name="width" value="1307" />
     <option name="height" value="988" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -241,9 +235,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomNumbers">
-    <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C212.extra.MidtermPrep.RandomNumbers" />
+  <component name="RunManager" selected="Application.CopyOf">
+    <configuration name="CopyOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C212.extra.MidtermPrep.CopyOf" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -315,7 +309,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.RandomNumbers" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CopyOf" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +392,7 @@
       <workItem from="1507503783765" duration="7062000" />
       <workItem from="1507568147081" duration="6734000" />
       <workItem from="1507607836937" duration="13209000" />
-      <workItem from="1507661420668" duration="11746000" />
+      <workItem from="1507661420668" duration="16531000" />
     </task>
     <task id="LOCAL-00001" summary="completed CarTwo and test, Counter and test, Student and test">
       <created>1505182089686</created>
@@ -432,7 +426,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136124000" />
+    <option name="totallyTimeSpent" value="140909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,7 +438,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="802" height="988" extended-state="0" />
+    <frame x="0" y="22" width="1307" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -455,12 +449,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38925081" sideWeight="0.23063223" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38521835" sideWeight="0.76936775" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33146697" sideWeight="0.76936775" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3381877" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37894738" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22766799" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25648022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -561,7 +555,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab05/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab05/Exam1-SelfGrade.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -676,17 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="e#724#725#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -695,31 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/ToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/CopyOf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/StandardDeviation.java" />
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -775,8 +733,8 @@
         <state relative-caret-position="189">
           <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1478#1486#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1478#1486#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,12 +810,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
           <folding>
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,8 +854,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/RandomNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/GameOfNim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/CopyOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/ToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>
