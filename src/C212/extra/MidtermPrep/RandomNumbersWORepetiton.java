@@ -17,7 +17,6 @@ public class RandomNumbersWORepetiton {
 
         for (int i = 0; i < array.length; i++) {
             array[i] = rand.nextInt(100 - 1);
-
             for (int j = 0; j < i; j++) {
                 if (array[i] == array[j]) {
                     i--;
