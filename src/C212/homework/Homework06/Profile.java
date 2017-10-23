@@ -50,19 +50,11 @@ public class Profile {
             min = Integer.parseInt(args[1]);
         }
 
-        //enhanced for loop
-        int i = 1;
-        for (String words : wordCounts.keySet()) {
-            int count = wordCounts.get(words);
-
-            if (count > min) {
-
-                //formatted output statement called for all words with
-                //over 20 counts
-                System.out.println(i + ". " + words + " = " + count);
-                i++;
-            }
-        }
-
+        //Uses java lambdas, takes the wordCounts HashMap and sorts
+        //it first with comparingByValue(), then reverses it and then sorts it
+        //by comparingByKey().  It then prints out all elements.
+        wordCounts.entrySet().stream()
+            .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()
+            .thenComparing(Map.Entry.comparingByKey())).forEach(System.out::println);
     }
 }
