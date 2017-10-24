@@ -12,7 +12,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class SecondQuestion {
-    public static Set<Integer> union(Set<Integer> set1, Set<Integer> set2) {
+    private static Set<Integer> union (Set<Integer> set1, Set<Integer> set2) {
         Set<Integer> unionSet = new TreeSet<>();
 
         unionSet.addAll(set1);
@@ -21,7 +21,7 @@ public class SecondQuestion {
         return unionSet;
     }
 
-    public static Set<Integer> intersection(Set<Integer> set1, Set<Integer> set2) {
+    private static Set<Integer> intersection (Set<Integer> set1, Set<Integer> set2) {
         Set<Integer> intersectionSet = new TreeSet<>(set1);
 
         intersectionSet.retainAll(set2);
@@ -29,7 +29,7 @@ public class SecondQuestion {
         return intersectionSet;
     }
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Set<Integer> A = new TreeSet<>();
         Set<Integer> B = new TreeSet<>();
 
@@ -40,9 +40,6 @@ public class SecondQuestion {
         B.add(2);
         B.add(3);
         B.add(4);
-
-        Iterator<Integer> iteratorA = A.iterator();
-        Iterator<Integer> iteratorB = B.iterator();
 
         System.out.println("Set A:");
         System.out.println(A);

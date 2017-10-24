@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89ce38ea-fa4b-4ff3-a2b0-5d08c187050c" name="Default" comment="Wednesday 9/12 lecture">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/C212Work/C212/lab/Lab08/Part1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/C212/lab/Lab08/Part1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/C212/extra/E15_8.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/C212Work/C212/lab/Lab08/FirstQuestion.class" afterPath="$PROJECT_DIR$/out/production/C212Work/C212/lab/Lab08/FirstQuestion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/C212Work/C212/lab/Lab08/SecondQuestion.class" afterPath="$PROJECT_DIR$/out/production/C212Work/C212/lab/Lab08/SecondQuestion.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/lab/Lab08/FirstQuestion.java" afterPath="$PROJECT_DIR$/src/C212/lab/Lab08/FirstQuestion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/lab/Lab08/SecondQuestion.java" afterPath="$PROJECT_DIR$/src/C212/lab/Lab08/SecondQuestion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,26 +36,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstQuestion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab08/FirstQuestion.java">
+      <file leaf-file-name="FirstProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework07/FirstProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondQuestion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab08/SecondQuestion.java">
+      <file leaf-file-name="SecondProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework07/SecondProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-404">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/C212/homework/Homework05/Preferences.java" />
-        <option value="$PROJECT_DIR$/src/C212/homework/Homework05/HomeworkFive.java" />
         <option value="$PROJECT_DIR$/src/C212/homework/Homework06/votes.txt" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Line.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Point.java" />
@@ -147,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/C212/extra/E15_8.java" />
         <option value="$PROJECT_DIR$/src/C212/lab/Lab08/SecondQuestion.java" />
         <option value="$PROJECT_DIR$/src/C212/lab/Lab08/FirstQuestion.java" />
+        <option value="$PROJECT_DIR$/src/C212/homework/Homework07/FirstProblem.java" />
+        <option value="$PROJECT_DIR$/src/C212/homework/Homework07/SecondProblem.java" />
       </list>
     </option>
   </component>
@@ -163,9 +162,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="959" />
+    <option name="x" value="1065" />
     <option name="y" value="22" />
-    <option name="width" value="961" />
+    <option name="width" value="843" />
     <option name="height" value="978" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -231,15 +230,15 @@
               <item name="C212Work" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="C212" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C212Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="C212Work" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="C212" type="462c0819:PsiDirectoryNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab08" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,20 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SecondQuestion">
-    <configuration name="SecondQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C212.lab.Lab08.SecondQuestion" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="C212Work" />
-      <envs />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -342,11 +328,6 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.SecondQuestion" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -446,7 +427,7 @@
       <workItem from="1508532329561" duration="2099000" />
       <workItem from="1508598004595" duration="30000" />
       <workItem from="1508766360042" duration="3201000" />
-      <workItem from="1508787662246" duration="3695000" />
+      <workItem from="1508787662246" duration="9248000" />
     </task>
     <task id="LOCAL-00001" summary="completed CarTwo and test, Counter and test, Student and test">
       <created>1505182089686</created>
@@ -480,7 +461,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164414000" />
+    <option name="totallyTimeSpent" value="169967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,7 +473,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="959" y="22" width="961" height="978" extended-state="0" />
+    <frame x="1065" y="22" width="843" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -503,19 +484,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.42242354" sideWeight="0.5046296" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34124294" sideWeight="0.76936775" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34124294" sideWeight="0.76936775" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33748585" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32842582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41666666" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41573033" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275463" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25578704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39739415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39661017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.1863426" sideWeight="0.50647247" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -609,14 +590,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/StandardDeviation.java" />
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/PrimeNumbers.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/PrimePrinter.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Append.java" />
@@ -890,16 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/E15_8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#134#142#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab08/Part1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -910,21 +873,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab08/SecondQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/lab/Lab08/FirstQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="451">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/extra/E15_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework07/SecondProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework07/FirstProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

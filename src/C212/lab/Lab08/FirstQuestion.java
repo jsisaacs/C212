@@ -13,7 +13,42 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class FirstQuestion {
-    public static void main(String[] args) {
+    public static Set<Integer> union (Set<Integer> set1, Set<Integer> set2) {
+        Set<Integer> unionSet = new TreeSet<>();
+
+        Iterator<Integer> iterator1 = set1.iterator();
+        Iterator<Integer> iterator2 = set2.iterator();
+
+        while(iterator1.hasNext()) {
+            unionSet.add(iterator1.next());
+        }
+        while ((iterator2.hasNext())) {
+            unionSet.add(iterator2.next());
+        }
+        return unionSet;
+    }
+
+    private static Set<Integer> intersection (Set<Integer> set1, Set<Integer> set2) {
+        Set<Integer> intersectionSet = new TreeSet<>();
+
+        Iterator<Integer> iterator = set1.iterator();
+
+        while(iterator.hasNext()) {
+            if(set2.contains(iterator.next())) {
+                intersectionSet.add(iterator.next());
+            }
+        }
+        /*
+        for (Integer element : set1) {
+            if(set2.contains(element)) {
+                intersectionSet.add(element);
+            }
+        }
+        */
+        return intersectionSet;
+    }
+
+    public static void main (String[] args) {
         Set<Integer> A = new TreeSet<>();
         Set<Integer> B = new TreeSet<>();
 
@@ -25,16 +60,13 @@ public class FirstQuestion {
         B.add(3);
         B.add(4);
 
-        Iterator<Integer> iteratorA = A.iterator();
-        Iterator<Integer> iteratorB = B.iterator();
-
         System.out.println("Set A:");
         System.out.println(A);
         System.out.println("Set B:");
         System.out.println(B);
         System.out.println("Union:");
-        //System.out.println(union(A, B));
+        System.out.println(union(A, B));
         System.out.println("Intersection:");
-        //System.out.println(intersection(A, B));
+        System.out.println(intersection(A, B));
     }
 }
