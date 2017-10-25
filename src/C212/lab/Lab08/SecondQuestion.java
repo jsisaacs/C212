@@ -1,6 +1,9 @@
-package C212.lab.Lab08;
+//Joshua Isaacson, jsisaacs, 10/2/2017
+
+//package C212.lab.Lab08;
 
 /*
+ R15.19
 How can you compute the union and intersection of 2 sets,
 using some of the methods that the java.util.Set interface
 provides, but without using an iterator?

@@ -9,4 +9,7 @@ more words in the input.
  */
 
 public class FirstProblem {
+    public static void main(String[] args) {
+
+    }
 }

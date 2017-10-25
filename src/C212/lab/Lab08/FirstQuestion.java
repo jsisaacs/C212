@@ -1,6 +1,9 @@
-package C212.lab.Lab08;
+//Joshua Isaacson, jsisaacs, 10/2/2017
+
+//package C212.lab.Lab08;
 
 /*
+ R15.18
 The union of 2 sets A and B is the set of all elements that
 are contained in A, B, or both. The intersection is the set
 of all elements that are contained in A and B. How can you
@@ -29,22 +32,15 @@ public class FirstQuestion {
     }
 
     private static Set<Integer> intersection (Set<Integer> set1, Set<Integer> set2) {
-        Set<Integer> intersectionSet = new TreeSet<>();
+        Set<Integer> intersectionSet = new TreeSet<>(set1);
 
-        Iterator<Integer> iterator = set1.iterator();
+        Iterator<Integer> iterator = intersectionSet.iterator();
 
         while(iterator.hasNext()) {
-            if(set2.contains(iterator.next())) {
-                intersectionSet.add(iterator.next());
+            if(!set2.contains(iterator.next())) {
+                iterator.remove();
             }
         }
-        /*
-        for (Integer element : set1) {
-            if(set2.contains(element)) {
-                intersectionSet.add(element);
-            }
-        }
-        */
         return intersectionSet;
     }
 
