@@ -1,3 +1,5 @@
+//Joshua Isaacson, jsisaacs, October 30, 2017
+
 package C212.homework.Homework07;
 
 /*

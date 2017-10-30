@@ -1,3 +1,5 @@
+//Joshua Isaacson, jsisaacs, October 30, 2017
+
 package C212.homework.Homework07;
 
 /*
@@ -12,29 +14,52 @@ import java.util.Stack;
 
 public class SecondProblem {
     public static void main(String[] args) {
-        Scanner consoleIn = new Scanner(System.in);
-        Stack<Integer> results = new Stack<Integer>();
-        System.out.println("Enter one number or operator per line, Q to quit: ");
+        //initialize the scanner and the Stack from the Collections
+        Scanner scanner = new Scanner(System.in);
+        Stack<Integer> output = new Stack<Integer>();
+
+        //opening statement
+        System.out.println("Type in a number, or an operator.");
+        System.out.println("If you want to quit, just press q.");
+
         boolean done = false;
+
         while (!done) {
-            String input = consoleIn.next();
+            //prompts user input
+            String input = scanner.next();
+
+            //if char == +, add and pop
             if (input.equals("+")) {
-                results.push(results.pop() + results.pop());
-            } else if (input.equals("-")) {
-                Integer arg2 = results.pop();
-                results.push(results.pop() - arg2);
-            } else if (input.equals("*") || input.equals("x")) {
-                results.push(results.pop() * results.pop());
-            } else if (input.equals("/")) {
-                Integer arg2 = results.pop();
-                results.push(results.pop() / arg2);
-            } else if (input.equalsIgnoreCase("Q")) {
+                output.push(output.pop() + output.pop());
+            }
+
+            //if char == -, subtract and pop
+            else if (input.equals("-")) {
+                Integer arg2 = output.pop();
+                output.push(output.pop() - arg2);
+            }
+
+            //if char == *, multiply and pop
+            else if (input.equals("*") || input.equals("x")) {
+                output.push(output.pop() * output.pop());
+            }
+
+            //if char == /, divide and pop
+            else if (input.equals("/")) {
+                Integer arg2 = output.pop();
+                output.push(output.pop() / arg2);
+            }
+
+            //if char == Q, quit the while loop
+            else if (input.equalsIgnoreCase("Q")) {
                 done = true;
             } else {
-                results.push(Integer.parseInt(input));
+                output.push(Integer.parseInt(input));
             }
-            System.out.println(results);
+
+            //print out the stack after each change
+            System.out.println("Stack: " + output);
         }
-        consoleIn.close();
+        scanner.close();
     }
 }
