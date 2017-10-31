@@ -57,7 +57,7 @@ public class SecondProblem {
                 output.push(Integer.parseInt(input));
             }
 
-            //print out the stack after each change
+            //print out the Stack at each point
             System.out.println("Stack: " + output);
         }
         scanner.close();
