@@ -6,17 +6,16 @@ import java.util.Scanner;
 
 public class MagicSquare {
     private static int n;
-    private static int row;
-    private static int column;
 
-    public static void input() {
+    private static void input() {
         Scanner input = new Scanner(System.in);
+        System.out.println("Input: ");
         n = input.nextInt();
-        if (n% 2 == 0) throw new RuntimeException("n must be odd"); {
+        if (n% 2 == 0) throw new RuntimeException("Input isn't odd."); {
         }
     }
 
-    public static void magic() {
+    private static void magic() {
         int[][] magicSquare = new int[n][n];
         int row = n - 1;
         int column = n / 2;
@@ -34,7 +33,7 @@ public class MagicSquare {
         }
 
         for (int a = 0; a < n; a++) {
-
+            System.out.print("[");
             for (int b = 0; b < n; b++) {
 
                 if (magicSquare[a][b] < 10){
@@ -46,6 +45,7 @@ public class MagicSquare {
                 System.out.print(magicSquare[a][b] + " ");
 
             }
+            System.out.print("]");
             System.out.println();
         }
     }
