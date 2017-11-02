@@ -1,3 +1,5 @@
+//Joshua Isaacson, jsisaacs, 10/31/2017
+
 package C212.lab.Lab09;
 
 import java.awt.Graphics;
@@ -6,11 +8,13 @@ import java.awt.event.MouseEvent;
 
 abstract interface World
 {
-    public abstract void draw(Graphics paramGraphics);
+    public void keyEvent(KeyEvent paramKeyEvent);
 
-    public abstract void teh();
+    public void actionEvent();
 
-    public abstract void meh(MouseEvent paramMouseEvent);
+    public void draw(Graphics paramGraphics);
 
-    public abstract void keh(KeyEvent paramKeyEvent);
+    public void mouseEvent(MouseEvent paramMouseEvent);
+
+
 }
