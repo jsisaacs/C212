@@ -4,21 +4,21 @@ package C212.exam3;
 
 import java.util.ArrayList;
 
-public class Path {
-    private ArrayList<City> path;
+public class Neighbors {
+    private ArrayList<City> neighbors;
 
-    public Path(ArrayList<City> listOfCity) {
-        this.path = listOfCity;
+    public Neighbors(ArrayList<City> listOfCity) {
+        this.neighbors = listOfCity;
     }
 
     public ArrayList<City> getPath() {
-        return path;
+        return neighbors;
     }
 
     public String toString() {
         ArrayList<String> output = new ArrayList<>();
-        for (int i = 0; i < path.size(); i++) {
-            output.add(path.get(i).getName());
+        for (int i = 0; i < neighbors.size(); i++) {
+            output.add(neighbors.get(i).getName());
         }
         return output.toString();
     }

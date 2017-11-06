@@ -2,6 +2,7 @@
 
 package C212.exam3;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -16,12 +17,12 @@ public class City {
         return city;
     }
 
-    public Path shortestPath(Network param, City target) {
+    public ArrayList<City> shortestPath(Network param, City target) {
         //print the Network
-        for (Map.Entry<City, Path> entry : param.getNetwork().entrySet()) {
+        for (Map.Entry<City, Neighbors> entry : param.getNetwork().entrySet()) {
             System.out.println("----------------------------------------------------------" + "\n" +
-                               "City: " + entry.getKey().getName() + "\n" +
-                               "Connections: " + entry.getValue());
+                    "City: " + entry.getKey().getName() + "\n" +
+                    "Connections: " + entry.getValue());
         }
 
         //check the paths in param to see if the first element equals this.object

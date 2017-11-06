@@ -2,16 +2,19 @@
 
 package C212.exam3;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Network {
-    private Map<City, Path> network;
+    private Map<City, Neighbors> network;
 
-    public Network(Map<City, Path> cities) {
+    public Network(Map<City, Neighbors> cities) {
         this.network = cities;
     }
 
-    public Map<City, Path> getNetwork() {
+    //returns the Map<City, Neighbors> attribute from a Network object
+    //Network -> Map<City, Neighbors>
+    public Map<City, Neighbors> getNetwork() {
         return network;
     }
 }
