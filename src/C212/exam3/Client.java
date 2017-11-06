@@ -84,7 +84,7 @@ public class Client {
         pendleton.shortestPath(nation, pueblo);
         //expected: Path -> [Pendleton, Pueblo]
 
-        System.out.println(pendletonPath.toString());
+        //System.out.println(pendletonPath.toString());
         //expected: [Pierre, Pueblo, Phoenix]
     }
 }

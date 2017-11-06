@@ -10,4 +10,8 @@ public class Network {
     public Network(Map<City, Path> cities) {
         this.network = cities;
     }
+
+    public Map<City, Path> getNetwork() {
+        return network;
+    }
 }

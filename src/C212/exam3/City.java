@@ -2,6 +2,9 @@
 
 package C212.exam3;
 
+import java.util.Iterator;
+import java.util.Map;
+
 public class City {
     private String city;
 
@@ -14,6 +17,21 @@ public class City {
     }
 
     public Path shortestPath(Network param, City target) {
+        //print the Network
+        for (Map.Entry<City, Path> entry : param.getNetwork().entrySet()) {
+            System.out.println("----------------------------------------------------------" + "\n" +
+                               "City: " + entry.getKey().getName() + "\n" +
+                               "Connections: " + entry.getValue());
+        }
+
+        //check the paths in param to see if the first element equals this.object
+        //and if the last element equals target
+        //TODO
+        if (true) {
+
+        } else {
+            System.out.println("There is no path between the 2 cities.");
+        }
 
         return null;
     }
