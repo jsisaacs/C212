@@ -11,10 +11,11 @@ public class Neighbors {
         this.neighbors = listOfCity;
     }
 
-    public ArrayList<City> getPath() {
+    public ArrayList<City> getNeighbors() {
         return neighbors;
     }
 
+    @Override
     public String toString() {
         ArrayList<String> output = new ArrayList<>();
         for (int i = 0; i < neighbors.size(); i++) {

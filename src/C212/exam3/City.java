@@ -17,20 +17,45 @@ public class City {
         return city;
     }
 
-    public ArrayList<City> shortestPath(Network param, City target) {
-        //print the Network
-        for (Map.Entry<City, Neighbors> entry : param.getNetwork().entrySet()) {
-            System.out.println("----------------------------------------------------------" + "\n" +
-                    "City: " + entry.getKey().getName() + "\n" +
-                    "Connections: " + entry.getValue());
-        }
+    @Override
+    public String toString() {
+        String output = getName();
+        return output;
+    }
 
+    public String shortestPath(Network param, City target) {
         //check the paths in param to see if the first element equals this.object
         //and if the last element equals target
         //TODO
-        if (true) {
+        if (param.getNetwork().containsKey(target) && param.getNetwork().containsKey(this)) {
+            System.out.println("City is in the network!");
 
-        } else {
+            //if City input == City target
+            if (this == target) {
+                ArrayList<City> pathToItself = new ArrayList<>();
+                pathToItself.add(this);
+                return "Shortest Path -> " + pathToItself;
+            } else {
+                /*
+                Check the neighbors ✅,
+                for each neighbor check its neighbor.
+                Keep doing that until this == target.
+                */
+
+                //iterate through the Network's map's keys, return the values
+                for (Map.Entry<City, Neighbors> entry : param.getNetwork().entrySet()) {
+                    City key = entry.getKey();
+                    Neighbors value = entry.getValue();
+                    for (City aCity : value.getNeighbors()) {
+                        System.out.println("[key : " + key.toString() + " value : " + aCity.toString() + "]");
+
+
+                    }
+                }
+            }
+
+        }
+        else {
             System.out.println("There is no path between the 2 cities.");
         }
 

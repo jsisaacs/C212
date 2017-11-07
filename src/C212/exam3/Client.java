@@ -16,6 +16,7 @@ public class Client {
         City pittsburgh = new City("Pittsburgh");
         City princeton = new City("Princeton");
         City pensacola = new City("Pensacola");
+        City sanFrancisco = new City("San Francisco");
 
         //Neighbors
         ArrayList<City> al1 = new ArrayList<>();
@@ -80,11 +81,6 @@ public class Client {
         network.put(pensacola, pensacolaNeighbors);
         Network nation = new Network(network);
 
-        //shortestNeighbors() test
-        pendleton.shortestPath(nation, pueblo);
-        //expected: Neighbors -> [Pendleton, Pueblo]
-
-        //System.out.println(pendletonNeighbors.toString());
-        //expected: [Pierre, Pueblo, Phoenix]
+        System.out.println(peoria.shortestPath(nation, peoria));
     }
 }

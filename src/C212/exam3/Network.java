@@ -2,6 +2,7 @@
 
 package C212.exam3;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,5 +17,13 @@ public class Network {
     //Network -> Map<City, Neighbors>
     public Map<City, Neighbors> getNetwork() {
         return network;
+    }
+
+    public String toString() {
+        ArrayList<String> output = new ArrayList<>();
+        for (Map.Entry<City, Neighbors> entry : this.getNetwork().entrySet()) {
+            output.add("[City: " + entry.getKey().getName() + ", Connections: " + entry.getValue() + "]");
+        }
+        return output.toString();
     }
 }
