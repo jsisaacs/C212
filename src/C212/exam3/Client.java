@@ -1,3 +1,5 @@
+//Joshua Isaacson, jsisaacs, November 5, 2017
+
 package C212.exam3;
 
 import java.util.ArrayList;
@@ -81,6 +83,7 @@ public class Client {
         network.put(pensacola, pensacolaNeighbors);
         Network nation = new Network(network);
 
-        System.out.println(peoria.shortestPath(nation, peoria));
+        //Test
+        System.out.println(pendleton.shortestPath(nation, peoria));
     }
 }
