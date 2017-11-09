@@ -2,28 +2,48 @@
 
 package C212.exam3;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import C212.extra.Lecture.Graph;
+import sun.nio.ch.Net;
 
-public class Network {
-    private Map<City, Neighbors> network;
+import java.util.*;
 
-    public Network(Map<City, Neighbors> cities) {
-        this.network = cities;
+public class Network extends HashMap<City, Neighbors> {
+    public static Network n = new Network();
+
+    public static Neighbors neighborsOf(City c) {
+        return Network.n.get(c);
     }
 
-    //returns the Map<City, Neighbors> attribute from a Network object
-    //Network -> Map<City, Neighbors>
-    public Map<City, Neighbors> getNetwork() {
-        return network;
-    }
-
-    public String toString() {
-        ArrayList<String> output = new ArrayList<>();
-        for (Map.Entry<City, Neighbors> entry : this.getNetwork().entrySet()) {
-            output.add("[City: " + entry.getKey().getName() + ", Connections: " + entry.getValue() + "]");
+    public Path shortestPath(City end, Paths candidates) {
+        if (candidates == null) {
+            return null;
         }
-        return output.toString();
+        else if (candidates.size() == 0) {
+            return new Path();
+        }
+        else {
+            for (Path c : candidates) {
+                if (c.get(c.size() - 1) == end) {
+                    return c;
+                }
+            }
+            Paths p = new Paths();
+            for (Path c : candidates) {
+                City last = c.get(c.size() - 1);
+                Neighbors n = Network.neighborsOf(last);
+                for (City city : n) {
+                    Path newPath = c.clone();
+                    if (p.contains(city)) {
+
+                    }
+                    else {
+                        newPath.add(city);
+                        p.add(newPath);
+                    }
+                }
+                return shortestPath(end, p);
+            }
+            return null;
+        }
     }
 }
