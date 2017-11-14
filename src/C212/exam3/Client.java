@@ -31,9 +31,14 @@ public class Client {
 
         System.out.println(Network.n);
 
-        Path a3 = Network.n.shortestPath(p, new Paths(new Path(sf)));
+        Path path = new Path();
+        path.add(sf);
+        //path.add(sf);
+
+        Path a3 = Network.n.shortestPath(la, new Paths(path));
         System.out.println( a3 );
-        Path a4 = Network.n.shortestPath(sf, new Paths(new Path(sf)));
-        System.out.println( a4 );
+
+       // Path a4 = Network.n.shortestPath(sf, new Paths(new Path(sf)));
+        //System.out.println( a4 );
     }
 }

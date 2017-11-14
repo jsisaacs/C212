@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89ce38ea-fa4b-4ff3-a2b0-5d08c187050c" name="Default" comment="Wednesday 9/12 lecture">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/C212Work/C212/exam3/City.class" afterPath="$PROJECT_DIR$/out/production/C212Work/C212/exam3/City.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/C212Work/C212/exam3/Client.class" afterPath="$PROJECT_DIR$/out/production/C212Work/C212/exam3/Client.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/exam3/City.java" afterPath="$PROJECT_DIR$/src/C212/exam3/City.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/exam3/Client.java" afterPath="$PROJECT_DIR$/src/C212/exam3/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/exam3/Neighbors.java" afterPath="$PROJECT_DIR$/src/C212/exam3/Neighbors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/C212/exam3/Network.java" afterPath="$PROJECT_DIR$/src/C212/exam3/Network.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,81 +33,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C212/exam3/City.java">
+      <file leaf-file-name="Ratchet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Ratchet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
               <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Neighbors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C212/exam3/Neighbors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C212/exam3/Path.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Paths.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C212/exam3/Paths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Network.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/C212/exam3/Network.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Adapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Adapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Socket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Socket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/C212/exam3/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,11 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Fraction.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/CopyOf.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/ToString.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/Tigger.java" />
-        <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/ScalablePatterns.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/HomeworkFour.java" />
         <option value="$PROJECT_DIR$/src/C212/extra/MidtermPrep/RandomNumbersWORepetiton.java" />
         <option value="$PROJECT_DIR$/src/C212/lab/Lab07/Midterm.java" />
@@ -215,6 +174,11 @@
         <option value="$PROJECT_DIR$/src/C212/exam3/Paths.java" />
         <option value="$PROJECT_DIR$/src/C212/exam3/Network.java" />
         <option value="$PROJECT_DIR$/src/C212/exam3/Client.java" />
+        <option value="$PROJECT_DIR$/src/C212/homework/Homework09/Rachet.java" />
+        <option value="$PROJECT_DIR$/src/C212/homework/Homework09/Socket.java" />
+        <option value="$PROJECT_DIR$/src/C212/homework/Homework09/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/C212/homework/Homework09/Client.java" />
+        <option value="$PROJECT_DIR$/src/C212/homework/Homework09/Ratchet.java" />
       </list>
     </option>
   </component>
@@ -231,10 +195,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
+    <option name="x" value="1" />
     <option name="y" value="22" />
-    <option name="width" value="1006" />
-    <option name="height" value="702" />
+    <option name="width" value="952" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -274,7 +238,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,21 +263,21 @@
               <item name="C212Work" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="C212" type="462c0819:PsiDirectoryNode" />
-              <item name="exam3" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C212Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="C212Work" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="C212" type="462c0819:PsiDirectoryNode" />
-              <item name="extra" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework09" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +306,7 @@
   </component>
   <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C212.exam3.Client" />
+      <option name="MAIN_CLASS_NAME" value="C212.homework.Homework09.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -538,7 +503,11 @@
       <workItem from="1510089379716" duration="4971000" />
       <workItem from="1510104287853" duration="4263000" />
       <workItem from="1510174826984" duration="3544000" />
-      <workItem from="1510251515701" duration="1629000" />
+      <workItem from="1510251515701" duration="2294000" />
+      <workItem from="1510279071688" duration="96000" />
+      <workItem from="1510279332327" duration="27000" />
+      <workItem from="1510324881106" duration="1255000" />
+      <workItem from="1510696450840" duration="2823000" />
     </task>
     <task id="LOCAL-00001" summary="completed CarTwo and test, Counter and test, Student and test">
       <created>1505182089686</created>
@@ -572,7 +541,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241059000" />
+    <option name="totallyTimeSpent" value="245925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,7 +553,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="22" width="1006" height="702" extended-state="0" />
+    <frame x="1" y="22" width="952" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -595,19 +564,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3920635" sideWeight="0.40106383" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2739274" sideWeight="0.59893614" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33748585" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746032" sideWeight="0.59893614" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32842582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902583" sideWeight="0.48954895" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277311" sideWeight="0.48253968" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275463" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25578704" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5099404" sideWeight="0.510451" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3960396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902583" sideWeight="0.51746035" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -662,7 +631,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -671,17 +640,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/Example.java" />
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/Shape.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/Oct18_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/C212/extra/Oct18.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/extra/Circle.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/awt/event/MouseMotionListener.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -844,13 +802,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/exam3/MapTutorial.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/exam3/MapTreeSetTutorial.java" />
-    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework08/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/exam3/DistanceTo.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/exam3/Position.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/extra/MidtermPrep/Point.java">
@@ -884,12 +835,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/extra/Lecture/ExampleGraph.java" />
     <entry file="file://$PROJECT_DIR$/src/C212/exam3/Dijkstra.java" />
+    <entry file="file://$PROJECT_DIR$/src/C212/exam3/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#165#166#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/exam3/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#141#142#0" expanded="false" />
+            <element signature="e#168#169#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/exam3/Neighbors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,56 +871,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/exam3/Path.java">
+    <entry file="file://$PROJECT_DIR$/src/C212/exam3/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="96">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/exam3/Paths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/C212/exam3/Network.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="63">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#296#297#0" expanded="false" />
+            <element signature="e#335#336#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/C212/exam3/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework08/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Rachet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Ratchet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/C212/homework/Homework09/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
