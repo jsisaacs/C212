@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class InventoryGUI extends JFrame {
+public class InventoryPartTwo extends JFrame {
     private JLabel cartons;
     private JLabel items;
     private JLabel total;
@@ -15,16 +15,28 @@ public class InventoryGUI extends JFrame {
     private JTextField totalField;
     private JButton calculateTotal;
 
-    public InventoryGUI() {
+    public InventoryPartTwo() {
         prepareGUI();
     }
 
     private void setCalculateTotal(ActionEvent e) {
-        this.totalField.setText(String.valueOf(Integer.parseInt(this.cartonsField.getText()) *
-                                Integer.parseInt(this.itemsField.getText())));
+        int a = Integer.parseInt(this.cartonsField.getText());
+        int b = Integer.parseInt(this.itemsField.getText());
+
+        int total = a * b;
+
+        this.totalField.setText(String.valueOf(total));
     }
 
-    private void prepareGUI() {
+    private void setCartonsField(KeyEvent paramKeyEvent) {
+        this.totalField.setText(null);
+    }
+
+    private void setItemsField(KeyEvent paramKeyEvent) {
+        this.totalField.setText(null);
+    }
+
+    public void prepareGUI() {
         Container container = getContentPane();
         container.setLayout(null);
 
@@ -34,7 +46,7 @@ public class InventoryGUI extends JFrame {
         container.add(this.cartons);
 
         this.items = new JLabel();
-        this.items.setText("Textbooks per carton:");
+        this.items.setText("Items per carton:");
         this.items.setBounds(16, 48, 145, 21);
         container.add(this.items);
 
@@ -48,12 +60,22 @@ public class InventoryGUI extends JFrame {
         this.cartonsField.setBounds(160, 16, 40, 21);
         this.cartonsField.setHorizontalAlignment(SwingConstants.LEFT);
         container.add(this.cartonsField);
+        this.cartonsField.addKeyListener(new KeyAdapter() {
+            public void keyPressed(KeyEvent e) {
+                InventoryPartTwo.this.setCartonsField(e);
+            }
+        });
 
         this.itemsField = new JTextField();
         this.itemsField.setText("");
         this.itemsField.setBounds(160, 48, 40, 21);
         this.itemsField.setHorizontalAlignment(SwingConstants.LEFT);
         container.add(this.itemsField);
+        this.itemsField.addKeyListener(new KeyAdapter() {
+            public void keyPressed(KeyEvent e) {
+                InventoryPartTwo.this.setItemsField(e);
+            }
+        });
 
         this.totalField = new JTextField();
         this.totalField.setBounds(295, 16, 86, 21);
@@ -66,9 +88,8 @@ public class InventoryGUI extends JFrame {
         this.calculateTotal.setBounds(250, 48, 126, 24);
         container.add(this.calculateTotal);
         this.calculateTotal.addActionListener(new ActionListener() {
-            @Override
             public void actionPerformed(ActionEvent e) {
-                InventoryGUI.this.setCalculateTotal(e);
+                InventoryPartTwo.this.setCalculateTotal(e);
             }
         });
         setTitle("Inventory");
@@ -79,6 +100,6 @@ public class InventoryGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        InventoryGUI inventoryGUI = new InventoryGUI();
+        InventoryPartTwo localInventory = new InventoryPartTwo();
     }
 }
