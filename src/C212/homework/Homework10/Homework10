@@ -1,0 +1,152 @@
+Joshua Isaacson - jsisaacs
+December 13, 2017
+Homework 10 - Final Exam Review
+
+1. find_maximum
+public static int find_maximum ( int[ ] A ) {
+    int largest = 0;
+    for ( int a = end - 1; a > A.length; a++ ) {
+        If ( A[ a ] > A[ largest ] ) {
+            largest = a;
+        }
+    return A[ largest ];
+}
+
+2. reverse
+public static void swap(char[] s, int i1, int i2) {
+  char temporaryChar = s[i1];
+  s[i1] = s[i2];
+  s[i2] = temporaryChar;
+}
+public static void reverse(char[] s, int begin, int end) {
+  while(begin < end) {
+    swap(s, begin, end);
+    begin++;
+    end--;
+  }
+}
+
+3. f method output
+The following method takes the list and removes the even numbers, which are 2 and 4 in this case.
+
+4. Bicycle class
+import java.Math.*;
+
+public class Bicycle {
+  private double cadence;
+  private double gearSize;
+
+  public Bicycle(double gearSize, double cadence) {
+    this.gearSize = gearSize;
+    this.cadence = cadence;
+  }
+
+  public void setCadence(double newCadence) {
+    this.cadence = newCadence;
+  }
+
+  public double speed() {
+    double speed = ((this.gearSize * Math.Pi()) / (12 * 5280)) * this.cadence * 60;
+    return speed;
+  }
+
+  public static void main(String[] args) {
+    Bicycle bike1 = new Bicycle(0.0, 4.0);
+    bike1.setCadence(20.5);
+    System.out.println(bike1.speed());
+  }
+}
+
+5. JUnit TestCase
+public class ZombieTest {
+  Zombie testNorth = new Zombie();
+  Zombie testEast = new Zombie();
+  Zombie testSouth = new Zombie();
+  Zombie testWest = new Zombie();
+
+  testNorth.move(North);
+  testEast.move(East);
+  testSouth.move(South);
+  testWest.move(West);
+
+  @Test
+  public void testNorth() {
+     int xPos = testNorth.getX();
+     int yPos = testNorth.getY();
+     assertTrue(xPos == 1);
+     assertTrue(yPos == 0);
+  }
+
+  @Test
+  public void testEast() {
+     int xPos = testEast.getX();
+     int yPos = testEast.getY();
+     assertTrue(xPos == 0);
+     assertTrue(yPos == 1);
+  }
+
+  @Test
+  public void testSouth() {
+    int xPos = testSouth.getX();
+    int yPos = testSouth.getY();
+    assertTrue(xPos == -1);
+    assertTrue(yPos == 0);
+  }
+
+  @Test
+  public void testWest() {
+    int xPos = testWest.getX();
+    int yPos = testWest.getY();
+    assertTrue(xPos == 0);
+    assertTrue(yPos == -1);
+  }
+
+  @Test
+  public void testGetX() {
+    int xPos = testWest.getX();
+    assertTrue(xPos == 0);
+  }
+
+  @Test
+  public void testGetY() {
+    int yPos = testWest.getY();
+    assertTrue(yPos == -1);
+  }
+}
+
+6. Zombie output
+-> 0
+-> 1
+
+7. Node output
+-> a
+-> b
+-> d
+
+8. Time complexity
+O(n^2)
+
+9. O(n^2) demonstration
+Given f(n) = 3n^2 + n + 10.
+3n^2 + n + 10 <= c * n^2, for n >= k.
+If k = 1, n = 1.
+n^2 >= n >= 1
+2n^2 >= 2n >= 2
+3n^2 >= 3n >= 3
+3n^2 + n + 10 <= 3n^2 + n^2 + 10n^2
+3n^2 + n + 10 <= 14n^2.
+So if c (in c * n^2) is 14 and n >= 1, then the function is of complexity O(n^2).
+
+10. Binary Tree relationships
+The number of nodes in a perfect binary tree = 2^(h + 1) - 1.
+
+Proof:
+nodes = 1 + 2 + 22 + 23 + ... + 2h
+        2 x nodes =     2 + 22 + 23 + ... + 2h + 2h+1
+    2 x nodes - nodes = 2h + 1 - 1
+                nodes = 2h+1 - 1
+
+11. Relations
+1. reflexive, symmetric, and transitive
+2. reflexive
+3. neither
